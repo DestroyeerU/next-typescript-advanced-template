@@ -8,21 +8,18 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #f5f5f5;
     font-size: 16px;
-    color: #333;
+    color: ${(props) => props.theme.colors.text};
+    background: ${(props) => props.theme.colors.background};
   }
 
   *, button, input {
     background: none;
     border: 0;
-    outline: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
 
   button {
-    font-family: Arial, Helvetica, sans-serif;
-
     cursor: pointer;
   }
 `;

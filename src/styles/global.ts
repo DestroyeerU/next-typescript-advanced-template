@@ -16,7 +16,7 @@ export default createGlobalStyle`
   *, button, input {
     background: none;
     border: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   button {
